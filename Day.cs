@@ -50,6 +50,25 @@ namespace Day
                 }
             }
         }
+        private void Update()
+        {
+            // if clicked button
+            if (ModAPI.Input.GetButtonDown("Menu"))
+            {
+                // show cursor
+                if (visible)
+                {
+                    LocalPlayer.FpCharacter.UnLockView();
+                }
+                else
+                {
+                    LocalPlayer.FpCharacter.LockView(true);
+                }
+                // toggle menu
+                visible = !visible;
+            }
+        }
+
     }
 }
 
