@@ -1,0 +1,10 @@
+<Mod ID="Day">
+  <Compatible>1.11b</Compatible>
+  <Name>
+    <EN>Day Changer</EN>
+  </Name>
+  <Description>
+    <EN>Change in-game day</EN>
+  </Description>
+  <Version>1.0.0.0</Version>
+</Mod>
